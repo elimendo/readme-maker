@@ -3,6 +3,8 @@
 // TODO: Create an array of questions for user input
 const inquirer = require("inquirer");
 const fs = require("fs");
+const path= require("path");
+const generateMarkdown = require("./generateMarkdown");
 const questions = [
   {
     type: "input",
@@ -59,6 +61,7 @@ function writeToFile(fileName, data) {}
 function init() {
   inquirer.prompt(questions).then((answers) => {
     console.log(answers);
+    fs.writeFileSync(path.join(process.cwd(),"project.md"),generateMarkdown(answers))
   });
 }
 
