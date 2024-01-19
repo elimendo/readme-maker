@@ -18,22 +18,22 @@ const questions = [
   },
   {
     type: "input",
-    name: "Installation",
+    name: "installation",
     message: "What are the installation instructions?",
   },
   {
     type: "input",
-    name: "Usage",
+    name: "usage",
     message: "What are the usage instructions?",
   },
   {
     type: "input",
-    name: "Contribution",
+    name: "contribution",
     message: "What is the contributation instructions?",
   },
   {
     type: "input",
-    name: "Test",
+    name: "test",
     message: "What is the testing instructions?",
   },
   {
@@ -43,12 +43,12 @@ const questions = [
   },
   {
     type: "input",
-    name: "Github",
-    message: "What is your github username?",
+    name: "github",
+    message: "Run me that Github username",
   },
   {
     type: "list",
-    name: "License",
+    name: "license",
     message: "Which license are you using?",
     choices: ["MIT", "Mozilla", "Boost", "NONE"],
   },
