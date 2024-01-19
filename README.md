@@ -10,7 +10,7 @@
 
 ## Usage
 
-    The use of this is incredible simply go in the console type 'node index.js' and a readme will be generated for you after you answer the following questions.
+    The use of this is incredible, simply go in the console type 'node index.js' and a readme will be generated for you after you answer the following questions.
 
 ## License
 
